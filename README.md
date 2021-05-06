@@ -1,4 +1,4 @@
-# black-box-tester
+# simple-service
 
 Microservice Tester
 
