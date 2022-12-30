@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 branch=$1
-file="${branch/\//-}"
+file="test-change-${branch/\//-}"
 git checkout main
 #git config pull.ff only
 git pull
