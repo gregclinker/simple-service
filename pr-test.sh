@@ -1,5 +1,5 @@
 #!/usr/bin/bash
-branch=$branch
+branch=$1
 file="${branch/\//-}"
 git checkout main
 #git config pull.ff only
