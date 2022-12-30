@@ -9,3 +9,5 @@ tag=v1.2
 ./pr-merge.sh release/test3
 #
 git checkout main ; git pull ; git tag $tag ; git push origin $tag
+#
+git log --merges --pretty=format:"%s" $(git describe --tags --abbrev=0 @^)..@
