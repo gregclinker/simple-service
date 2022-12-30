@@ -1,7 +1,7 @@
 #!/usr/bin/bash
+git push -d origin $1
 git checkout main
 git pull
-git push -d origin $1
 git checkout -b $1
 echo "XXXXXXXXXXXXXXXXXXX"
 git status
