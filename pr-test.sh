@@ -1,5 +1,5 @@
 #!/usr/bin/bash
-git checkout master
+git checkout main
 git pull
 git push -d origin $1
 git checkout -b $1
