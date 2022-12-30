@@ -2,7 +2,7 @@
 git checkout main
 git pull
 git branch -D $1
-git push origin $1
+git push origin --delete $1
 git pull
 git checkout -b $1
 echo "XXXXXXXXXXXXXXXXXXX"
