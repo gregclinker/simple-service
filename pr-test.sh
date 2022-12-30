@@ -1,6 +1,6 @@
 #!/usr/bin/bash
-git push -d origin $1
 git checkout main
+git push -d origin $1
 git pull
 git checkout -b $1
 echo "XXXXXXXXXXXXXXXXXXX"
