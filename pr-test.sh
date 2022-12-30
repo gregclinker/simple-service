@@ -2,7 +2,7 @@
 git checkout main
 #git config pull.ff only
 git pull
-#git branch -D $1
+git branch -D $1
 git push origin --delete $1
 git pull
 git checkout -b $1
