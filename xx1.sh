@@ -1,8 +1,11 @@
 
-branches=(	"patch/test1" 
-		"feature/test2" 
-		"release/test3"
-		)
+branches=(	
+		"patch/test11" 
+		"patch/test12" 
+		"feature/test21" 
+		"feature/test22" 
+		"release/test31"
+	)
 master=main
 
 pullMain () {
