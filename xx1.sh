@@ -1,5 +1,8 @@
 
-branches=("patch/test1" "feature/test2" "release/test3")
+branches=(	"patch/test1" 
+		"feature/test2" 
+		"release/test3"
+		)
 master=main
 
 pullMain () {
@@ -53,6 +56,8 @@ cleanUp () {
 cleanUp
 for branch in ${branches[@]}; do
   createBranch $branch
+done
+for branch in ${branches[@]}; do
   mergeBranch $branch
 done
 createTag $1
